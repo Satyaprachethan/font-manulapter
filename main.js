@@ -18,7 +18,9 @@ function draw() {
     fill("white");
     stroke("black");
     textSize(difference)
-    text("HELLO",noseX,noseY);
+    text("HELLO",noseX,noseY)
+    localStorage.setItem("open sessionStorage","open sessionsessionStorage")
+    sessionStorage.setItem("secret","this is a secret this webpage has been updaded from another webpage that is real time drawing")
 }
 function modelLoaded() {
     console.log('poseNet Is Initialized')
